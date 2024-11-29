@@ -4,6 +4,7 @@ class Solution {
         // String[] arr = {"flower", "flow", "flight", "z"};
         // Arrays.sort(arr);
         // System.out.println("Sorted Array: " + Arrays.toString(arr));
+        // Sorted Array: [flight, flow, flower, z]
         Arrays.sort(strs);
         String first = strs[0];
         String last = strs[strs.length - 1];
